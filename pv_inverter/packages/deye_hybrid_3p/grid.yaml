@@ -53,6 +53,7 @@ sensor:
     address: 625
     unit_of_measurement: "W"
     device_class: power
+    state_class: measurement
     accuracy_decimals: 0
     value_type: S_WORD
     icon: "mdi:transmission-tower"
@@ -510,3 +511,4 @@ number:
     register_type: holding
     address: 237
     internal: true
+
