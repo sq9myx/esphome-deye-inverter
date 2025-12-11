@@ -13,7 +13,7 @@
 # limitations under the License.
 
 substitutions:
-  update_interval: 4s
+  update_interval: 5s
 
 esphome:
   name: "${name}"
@@ -72,5 +72,6 @@ modbus_controller:
     update_interval: ${update_interval}
     command_throttle: 60ms
     offline_skip_updates: 3
+
 
 
